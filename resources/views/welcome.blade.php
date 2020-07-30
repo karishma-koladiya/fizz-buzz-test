@@ -95,6 +95,12 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+            <fetchdata></fetchdata>
         </div>
+        <div id="app">
+            <router-view></router-view>
+        </div>
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
